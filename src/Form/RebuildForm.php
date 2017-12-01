@@ -18,6 +18,9 @@ class RebuildForm extends FormBase {
     return 'cache_rebuild_form';
   }
 
+  /**
+   * {@inheritdoc}
+   */
   public function buildForm(array $form, FormStateInterface $form_state) {
 
     $form['description'] = [
