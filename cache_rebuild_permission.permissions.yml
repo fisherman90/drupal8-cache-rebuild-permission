@@ -1,0 +1,4 @@
+access cache rebuild:
+  title: 'Access cache rebuild link'
+  description: 'Give a cache rebuild form without need for the permission "administer site configuration".'
+  restrict access: TRUE

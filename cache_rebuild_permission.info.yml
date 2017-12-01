@@ -1,0 +1,9 @@
+name: Custom cache rebuild permission
+description: Defines a custom permission and a route with form to allow a role to rebuild cache without giving it "administer site configuration" permission.
+type: module
+package: Custom
+dependencies:
+  - system (>=8.3.0)
+
+version: '8.x-1.0'
+core: '8.x'

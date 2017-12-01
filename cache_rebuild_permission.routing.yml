@@ -1,0 +1,7 @@
+cache_rebuild_permission.rebuild:
+  path: '/admin/rebuild-cache'
+  defaults:
+    _form: '\Drupal\cache_rebuild_permission\Form\RebuildForm'
+    _title: 'Rebuild cache?'
+  requirements:
+    _permission: 'access cache rebuild'

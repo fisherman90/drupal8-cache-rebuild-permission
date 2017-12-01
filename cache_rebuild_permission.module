@@ -1,0 +1,10 @@
+<?php
+
+/**
+ * Implements hook_link_alter().
+ */
+function cache_rebuild_permission_link_alter(&$variables) {
+  if ($variables['url']->isRouted() && $variables['url']->getRouteName() == "cache_rebuild_permission.rebuild") {
+    $variables['options']['attributes']['class'] = array('toolbar-icon toolbar-icon-system-admin-config');
+  }
+}
